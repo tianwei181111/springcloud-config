@@ -24,3 +24,5 @@ spring:
       label: master
   profiles:
     active: dev
+config:
+  info: version 1
