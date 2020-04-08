@@ -1,8 +1,3 @@
-server:
-  port: 3444
 
-spring:
-  application:
-    name: order-histrx-consumer
 config:
-  info: 123
+  info: "123"
