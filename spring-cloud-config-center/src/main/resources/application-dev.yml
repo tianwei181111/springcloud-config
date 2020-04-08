@@ -4,3 +4,5 @@ server:
 spring:
   application:
     name: order-histrx-consumer
+config:
+  info: 123
