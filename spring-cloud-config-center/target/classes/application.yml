@@ -16,9 +16,11 @@ spring:
     config:
       server:
         git:
-          uri: github.com:tianwei181111/springcloud-config.git
+          uri: https://github.com/tianwei181111/springcloud-config.git
           search-paths:
-            - springcloud-config
+            - spring-cloud-config-center/src/main/resources
+          username: 1097708725@qq.com
+          password: TIANwei123
       label: master
   profiles:
     active: dev
