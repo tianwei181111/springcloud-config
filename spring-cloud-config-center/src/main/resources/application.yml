@@ -1,5 +1,3 @@
-server:
-  port: 3444
 
 eureka:
   instance:
