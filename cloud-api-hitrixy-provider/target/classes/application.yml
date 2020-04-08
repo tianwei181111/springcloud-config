@@ -1,0 +1,30 @@
+server:
+  port: 8009
+
+spring:
+  application:
+    name: provider-hitrixy
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource #连接池类型
+    driver-class-name: org.gjt.mm.mysql.Driver  #驱动
+    url: jdbc:mysql://192.168.43.168:3306/db2019?characterEncoding=utf8&useSSL=false
+    username: root
+    password: 123456
+
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.payment.springcloud.entites
+
+eureka:
+  client:
+    service-url:
+      register-with-eureka: true
+      fetch-registry: true
+      defaultZone: http://euraka-one:7001/eureka/
+  instance:
+    prefer-ip-address: true
+    instance-id: provider-hitrixy
+feign:
+  hystrix:
+    enabled: true

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-api-hitrixy-provider" />
+        <module name="cloud-provider-payment8801" />
+        <module name="cloud-eureka-server7001" />
+        <module name="cloud-provider-payment8004" />
+        <module name="cloud-eureka-server7002" />
+        <module name="spring-cloud-config-center" />
+        <module name="cloud-api-gateway-9000" />
+        <module name="cloud-provider-payment8802" />
+        <module name="cloud-api-histrx-consumer" />
+        <module name="cloud-consumer-order" />
+        <module name="cloud-consumer-order-feign80" />
+        <module name="untitled" />
+        <module name="cloud-api-commons" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="untitled" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
